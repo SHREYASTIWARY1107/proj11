@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html >
+<head>
+<title></title>
+<style type="text/css">
+.parent_div {
+  width:1000px;
+ height:550px;
+background:white;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.child_div {
+width:700px;
+height:500px;
+background:#FFD700;
+}
+
+#columnRight {
+ width: 68%;
+ float: left;
+ background: #FFD700;
+ padding-bottom: 1em;
+}
+.menu {
+ width: 27%;
+ float:left;
+ background: #FFD700;
+ padding-bottom: 1em;
+padding-top: 25px;
+ text-align: justify;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin-left: 14px;
+  padding: 0;
+}
+
+.menu li {
+  padding: 6px;
+  margin-bottom: 8px;
+  background-color: white;
+  background-image: linear-gradient(90deg, white 90%, black 10%);
+  
+  width:80%;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+.menu a.active {
+  background-color: white; /* Add a green color to the "active/current" link */
+  color: blue;
+}
+
+</style>
+</head>
+<body>
+<div class="parent_div">   
+        <div class="child_div">
+<div class="menu">
+  <ul>
+  <li><a class="active" href="">Home Page</a></li>
+  <li><a href="">Musings</a></li> 
+  <li><a href="">My towns</a></li> 
+  <li><a href="">Links</a></li>
+  </ul>
+  </p>
+</div>
+
+<div id="columnRight">
+<h1>My first styled page</h1>
+<p>Welcome to my styled page!
+<p>It lacks images, but atleast it has style. And it has links, even if they dont go anywhere... 
+<p>There should be more here but I dont know what yet  
+<p>................................................................................................................
+<p>Made 5 April 2004
+<br>by myself.</br>
+</div>
+</div>
+</div>
+</body>
+</html>
